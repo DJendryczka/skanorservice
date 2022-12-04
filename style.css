@@ -32,7 +32,7 @@
   
   .about h2, p {
     margin: 10px;
-    color: #c8c8c8;
+    color: #5a4e4e;
   }
   
   .box h2 {
@@ -155,7 +155,7 @@
     }
     nav {
       position: fixed;
-      background-color: #575250;
+      background-color: #57525028;
     }
     .nav-links {
       position: absolute;
@@ -230,6 +230,7 @@
     background-image: url("./images/building.jpg");
     background-position: center;
     background-size: cover;
+    top: 0;
     background-attachment: fixed;
     background-blend-mode: multiply;
   }
@@ -263,7 +264,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 20rem 20rem;
-    gap: 5px;
+    gap: 10px;
   }
   .grid-1,
   .grid-2,
@@ -273,7 +274,6 @@
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
-    border: 1px solid red;
   }
   
   /* .about-txt {
@@ -355,6 +355,9 @@
   } */
   
   @media screen and (max-width: 769px) {
+    .splash{
+        background-size: 100%;
+    }
     .container-grid {
       margin: 3rem;
       grid-template-columns: repeat(1, 1fr);
@@ -380,7 +383,7 @@
   .services {
     background-color: #6b6b6b;
     background-blend-mode: multiply;
-    background-image: url("../images/emmanuel-ikwuegbu-_2AlIm-F6pw-unsplash.jpg");
+    background-image: url("./images/sky-78113_1280.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -411,6 +414,7 @@
   }
   
   .service-txt {
+    color: whitesmoke;
     padding: 0 20px;
   }
   
@@ -454,7 +458,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0345b8;
+    background-color: #175fdc;
   }
   
   .contact-info {
@@ -477,6 +481,9 @@
     height: auto;
     font-size: 1.35rem;
     margin: 2rem 1rem;
+  }
+  .contact-text p{
+    color: #030121;
   }
   
   .contact-map {
