@@ -230,6 +230,8 @@
     background-image: url("./images/building.jpg");
     background-position: center;
     background-size: cover;
+    object-fit: cover;
+    -o-object-fit: cover;
     top: 0;
     background-attachment: fixed;
     background-blend-mode: multiply;
@@ -252,7 +254,7 @@
   .about {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: rgb(230, 221, 221);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,7 +262,7 @@
   
   .container-grid {
     max-width: 1000px;
-    
+    margin: 7rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 20rem 20rem;
@@ -386,6 +388,9 @@
     background-image: url("./images/sky-78113_1280.jpg");
     background-position: center;
     background-size: cover;
+    object-fit: cover;
+    -o-object-fit: cover;
+
     background-attachment: fixed;
     height: auto;
     display: flex;
@@ -409,8 +414,9 @@
     align-items: center;
     height: auto;
     text-align: center;
-    border-radius: 12px;
-    box-shadow: 0px 0px 9px #ccc5c5;
+    background-color: #03012157;
+    border-radius: 2px;
+    box-shadow: 0px 0px 9px #686767;
   }
   
   .service-txt {
@@ -426,7 +432,7 @@
   }
   
   .box img:hover {
-    transform: scale(1.9);
+    transform: scale(1.5);
   }
   
   @media screen and (max-width: 769px) {
