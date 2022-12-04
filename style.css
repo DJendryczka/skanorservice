@@ -228,11 +228,7 @@
     height: 70vh;
     background-color: #6b6b6b;
     background-image: url("./images/building.jpg");
-    background-position: center;
     background-size: cover;
-    object-fit: cover;
-    -o-object-fit: cover;
-    top: 0;
     background-attachment: fixed;
     background-blend-mode: multiply;
   }
@@ -358,7 +354,7 @@
   
   @media screen and (max-width: 769px) {
     .splash{
-        background-size: 100%;
+        background-position: center;
     }
     .container-grid {
       margin: 3rem;
@@ -388,9 +384,6 @@
     background-image: url("./images/sky-78113_1280.jpg");
     background-position: center;
     background-size: cover;
-    object-fit: cover;
-    -o-object-fit: cover;
-
     background-attachment: fixed;
     height: auto;
     display: flex;
